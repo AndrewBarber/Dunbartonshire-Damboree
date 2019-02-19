@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Dumbartonshire District Damboree! | Beavers in Tents!</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link href="./css/damboree.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,700,900">
+        <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script>
+            $(function(){
+            if (navigator.userAgent.match(/(iPod|iPhone|iPad|Android)/)) {
+                $('.parallax-container').height( $(window).height() * 0.5 | 0 );
+            } else {
+                $(window).resize(function(){
+                var parallaxHeight = Math.max($(window).height() * 0.6, 100) | 0;
+                $('.parallax-container').height(parallaxHeight);
+                }).trigger('resize');
+            }
+            });
+        </script>
+        <script src="./js/parallax.js-1.5.0/parallax.min.js"></script>
+  
+    </head>
+    <body>
+        <section>
+            <div class="container">
+              <h1>Dumbartonshire District<br/>Beaver Damboree<small> 2019</small></h1>
+            </div>
+          </section>
+      
+            <div class="parallax-container" data-parallax="scroll" data-position="top" data-bleed="10" data-image-src="./img/IMG_20190209_163543.jpg" data-natural-width="4608" data-natural-height="2000">
+                <div id="clockdiv">
+                    <h1 style="color: #fff; text-transform: uppercase; text-shadow: 7px 7px 7px #006ee1; padding-top: 0px; font-weight: 700; font-size: 50px; font-family: 'Nunito Sans';">Dunbartonshire District<br/>Beaver Damboree 2019</h1><br/>
+                    <p>Countdown til Damboree!</p>
+                    <div>
+                      <span class="days"></span>
+                      <div class="smalltext">Days</div>
+                    </div>
+                    <div>
+                      <span class="hours"></span>
+                      <div class="smalltext">Hours</div>
+                    </div>
+                    <div>
+                      <span class="minutes"></span>
+                      <div class="smalltext">Minutes</div>
+                    </div>
+                    <div>
+                      <span class="seconds"></span>
+                      <div class="smalltext">Seconds</div>
+                    </div>
+            </div>
+      
+          <section>
+            <div class="container">
+              <h2 id="installation">About</h2>
+                <p></p>
+
+            </div>
+          </section>
+      
+          <div class="parallax-container" data-parallax="scroll" data-bleed="10" data-speed="0.2" data-image-src="./img/cubs-shelter-building-jpg.jpg" data-natural-width="5616" data-natural-height="3744"></div>
+        
+          <section>
+            <div class="container">
+              <h2 id="installation">Events/Dates</h2>
+      
+
+            </div>
+          </section>
+      
+          <div class="parallax-container" data-parallax="scroll" data-bleed="10" data-speed="0.2" data-image-src="./img/scouts-and-explorers-with-helen-glover-2-jpg.jpg" data-natural-width="5616" data-natural-height="3744"></div>
+            
+          <section>
+            <div class="container">
+              <h2 id="options">FAQ</h2>
+
+            </div>
+          </section>
+      
+          <div class="parallax-container" data-parallax="scroll" data-bleed="10" data-image-src="./img/scouts-and-explorers-with-helen-glover-2-jpg.jpg" data-natural-width="1400" data-natural-height="900"></div>
+      
+          <section>
+            <div class="container">
+                <section class="mb-4">
+                    <h2 id="options">Contact Us</h2><br/>
+                    <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you as soon as we can!</p>
+                    <div class="row">
+                        <div class="col-md-12 mb-md-0 mb-5">
+                            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="md-form mb-0">
+                                            <input type="text" id="name" name="name" class="form-control">
+                                            <label for="name" class="">Your name</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="md-form mb-0">
+                                            <input type="text" id="email" name="email" class="form-control">
+                                            <label for="email" class="">Your email</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="md-form mb-0">
+                                            <input type="text" id="subject" name="subject" class="form-control">
+                                            <label for="subject" class="">Subject</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                
+                                        <div class="md-form">
+                                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                                            <label for="message">Your message</label>
+                                        </div>
+                
+                                    </div>
+                                </div>                
+                            </form>
+                
+                            <div class="text-center text-md-left">
+                                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+                            </div>
+                            <div class="status"></div>
+                        </div>
+        </div>
+    
+    </section>
+            </div>
+          </section>
+
+          <div class="parallax-container" data-parallax="scroll" data-bleed="10" data-image-src="./img/scouts-and-explorers-with-helen-glover-2-jpg.jpg" data-natural-width="750" data-natural-height="763"></div>
+      
+          <footer>
+            <div class="container">
+              Website donated by Andrew at Rokio - Web Solutions. Available on GitHub!
+            </div>
+          </footer>
+
+
+          <script>
+            function getTimeRemaining(endtime) {
+                var t = Date.parse(endtime) - Date.parse(new Date());
+                var seconds = Math.floor((t / 1000) % 60);
+                var minutes = Math.floor((t / 1000 / 60) % 60);
+                var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
+                var days = Math.floor(t / (1000 * 60 * 60 * 24));
+                return {
+                    'total': t,
+                    'days': days,
+                    'hours': hours,
+                    'minutes': minutes,
+                    'seconds': seconds
+                };
+                }
+    
+                function initializeClock(id, endtime) {
+                var clock = document.getElementById(id);
+                var daysSpan = clock.querySelector('.days');
+                var hoursSpan = clock.querySelector('.hours');
+                var minutesSpan = clock.querySelector('.minutes');
+                var secondsSpan = clock.querySelector('.seconds');
+    
+                function updateClock() {
+                    var t = getTimeRemaining(endtime);
+    
+                    daysSpan.innerHTML = t.days;
+                    hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
+                    minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
+                    secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
+    
+                    if (t.total <= 0) {
+                    clearInterval(timeinterval);
+                    }
+                }
+    
+                updateClock();
+                var timeinterval = setInterval(updateClock, 1000);
+                }
+    
+                var deadline = new Date('2019-04-26T18:00:00');
+                initializeClock('clockdiv', deadline);
+            
+            </script>
+
+    </body>
+
+
+</html>
