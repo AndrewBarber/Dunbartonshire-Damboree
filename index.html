@@ -2,10 +2,13 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Dumbartonshire District Damboree! | Beavers in Tents!</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+        <title>Dunbartonshire District Damboree! | Beavers in Tents!</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <link href="./css/damboree.css" rel="stylesheet">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,700,900">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
         <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         <script>
@@ -24,126 +27,268 @@
   
     </head>
     <body>
+        <nav class="navbar navbar-default navbar-fixed-top" style="background-color: clear;">
+            <div class="container">
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" style="min-height: 50px;">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><img src="./img/logo.png" width="50px" alt="Dunbartonshire District Scouts"/></a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="hidden">
+                            <a href="#page-top"></a>
+                        </li>
+                        <li><a data-pjax href="#about">About</a></li>
+                        <li><a data-pjax href="#acts">Activities</a></li>
+                        <li><a data-pjax href="#events">Events/Dates</a></li>
+                        <li><a data-pjax href="#faq">FAQ</a></li>
+                        <li><a data-pjax href="#contact">Contact</a></li>        
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div style="padding-top:65px;" class="visible-xs visible-sm"></div>
+        <div class="parallax-container" data-parallax="scroll" data-position="top" data-bleed="10" data-image-src="./img/IMG_20190209_163543.jpg" data-natural-width="4608" data-natural-height="2000">
+            <div> 
+                <h1 class="headerText" style="color: #fff; text-transform: uppercase; text-align: center; text-shadow: 3px 3px 7px #006ee1; font-weight: 900; font-size: 38px; font-family: 'Nunito Sans';">Dunbartonshire District<br/>Beaver Damboree 2019</h1>
+            </div>     
+        </div>
         <section>
             <div class="container">
-              <h1>Dumbartonshire District<br/>Beaver Damboree<small> 2019</small></h1>
-            </div>
-          </section>
-      
-            <div class="parallax-container" data-parallax="scroll" data-position="top" data-bleed="10" data-image-src="./img/IMG_20190209_163543.jpg" data-natural-width="4608" data-natural-height="2000">
                 <div id="clockdiv">
-                    <h1 style="color: #fff; text-transform: uppercase; text-shadow: 7px 7px 7px #006ee1; padding-top: 0px; font-weight: 700; font-size: 50px; font-family: 'Nunito Sans';">Dunbartonshire District<br/>Beaver Damboree 2019</h1><br/>
-                    <p>Countdown til Damboree!</p>
+                    <p>Countdown until <b>Damboree</b>!</p>
                     <div>
-                      <span class="days"></span>
-                      <div class="smalltext">Days</div>
+                        <span class="days"></span>
+                        <div class="smalltext">Days</div>
                     </div>
                     <div>
-                      <span class="hours"></span>
-                      <div class="smalltext">Hours</div>
+                        <span class="hours"></span>
+                        <div class="smalltext">Hours</div>
                     </div>
                     <div>
-                      <span class="minutes"></span>
-                      <div class="smalltext">Minutes</div>
+                        <span class="minutes"></span>
+                        <div class="smalltext">Minutes</div>
                     </div>
                     <div>
-                      <span class="seconds"></span>
-                      <div class="smalltext">Seconds</div>
+                        <span class="seconds"></span>
+                        <div class="smalltext">Seconds</div>
                     </div>
+                    <h3>Friday 26th April 2019 - Sunday 28th April 2019<br/>Auchengillen Outdoor Center</h3>
+                </div>
+                <h2 id="about"><i class="fas fa-campground"></i> About</h2>
+                <p>Damboree is all about Beavers! - an opportunity for all Beaver Scouts within Dunbartonshire District to camp outside and have some great adventures!</p>
+                <p>Dunbartonshire Damboree is an activity camp which spans a whole weekend created especially for <b>Beavers!</b> This will be the first district-led <b>Damboree</b> and has been put together by leaders from accross the district with loads of camping expeirece! </p>
+                <p>Our main aims for our damboree are to see everyone smiling, having fun, enjoying the adventure, meeting new people and making new friends. We do this by offering a varied and exciting programme of activities for all participants with a community feel across the whole site and a vibrant, lively atmosphere.</p>
+                <p>
+                    The <b>Damboree</b> is taking place over 2 nights from the evening of Friday 26th April to the afternoon of Sunday 28th April at Auchengillan Outdoor Centre.
+                </p>
             </div>
-      
-          <section>
+        </section>
+        <div class="parallax-container" data-parallax="scroll" data-bleed="10" data-speed="0.2" data-image-src="./img/IMG_3794.JPG" data-natural-width="4032" data-natural-height="2000"></div>
+        <section>
             <div class="container">
-              <h2 id="installation">About</h2>
-                <p></p>
-
+                <h2 id="acts"><i class="fas fa-smile-beam"></i> Activities</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <span style="font-size: 9rem; text-align: center;">
+                            <i style="width:100%; margin:0 auto;" class="fas fa-fire-alt"></i>
+                            <h3>Campfire + Sing-Songs!</h3>
+                        </span>
+                    </div>  
+                    <div class="col-md-4">
+                        <span style="font-size: 9rem; text-align: center;">
+                            <i style="width:100%; margin:0 auto;" class="fas fa-map-marker-alt"></i>
+                            <h3>Orienteering!</h3>
+                        </span>
+                    </div>  
+                    <div class="col-md-4">
+                        <span style="font-size: 9rem; text-align: center;">
+                             <i style="width:100%; margin:0 auto;" class="fas fa-sleigh"></i>
+                            <h3>Grass Sledging!</h3>
+                        </span>
+                    </div>  
+                </div>
+                <br/>
+                <div class="row">
+                    <div class="col-md-4">
+                        <span style="font-size: 9rem; text-align: center;">
+                            <i style="width:100%; margin:0 auto;" class="fas fa-bullseye"></i>
+                            <h3>Soft Archery!</h3>
+                        </span>
+                    </div>  
+                    <div class="col-md-4">
+                        <span style="font-size: 9rem; text-align: center;">
+                            <i style="width:100%; margin:0 auto;" class="fas fa-search"></i>
+                            <h3>Scavenger Hunt!</h3>
+                        </span>
+                    </div>  
+                    <div class="col-md-4">
+                        <span style="font-size: 9rem; text-align: center;">
+                            <i style="width:100%; margin:0 auto;" class="fas fa-certificate"></i>
+                            <h3>Nerf War!</h3>
+                        </span>
+                    </div>  
+                </div>
+                <br/>
+                <div class="row">
+                    <div class="col-md-4">
+                        <span style="font-size: 9rem; text-align: center;">
+                        </span>
+                    </div>  
+                    <div class="col-md-4">
+                        <span style="font-size: 9rem; text-align: center;">
+                        </span>
+                    </div>  
+                    <div class="col-md-4">
+                        <span style="font-size: 9rem; text-align: center;">
+                            <i style="width:100%; margin:0 auto;" class="fas fa-smile-wink"></i>
+                            <h3>and much more!</h3>
+                        </span>
+                    </div>  
+                </div>
             </div>
-          </section>
-      
-          <div class="parallax-container" data-parallax="scroll" data-bleed="10" data-speed="0.2" data-image-src="./img/cubs-shelter-building-jpg.jpg" data-natural-width="5616" data-natural-height="3744"></div>
-        
-          <section>
+        </section>
+        <div class="parallax-container" data-parallax="scroll" data-bleed="10" data-speed="0.2" data-image-src="./img/hunting.JPG" data-natural-width="1024" data-natural-height="768"></div>
+        <section>
             <div class="container">
-              <h2 id="installation">Events/Dates</h2>
-      
-
+                <h2 id="events"><i class="fas fa-calendar-day"></i> Events/Dates</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <h3><i class="far fa-calendar"></i> Kit Info Evening</h3>
+                        <h4>Mon 25th March 2019 - 6-9pm</h4>
+                        <p> <i class="fas fa-map-marker-alt"></i> Go Outdoors Clydebank</p>
+                        <p>An information evening for parents and Beavers to learn about different bits of personal kit required for <b>Damboree</b>. Higher discounts available on the night available to attendees.</p>
+                        <a href="https://goo.gl/forms/CVWyuSxzjuuLgIfE3" target="_blank" class="btn btn-primary">Sign Up</a>
+                    </div>  
+                    <div class="col-md-4">
+                        <h3><i class="far fa-calendar"></i> Kit Info Evening</h3>
+                        <h4>Mon 1st April 2019 - 6-9pm</h4>
+                        <p> <i class="fas fa-map-marker-alt"></i> Go Outdoors Clydebank</p>
+                        <p>An information evening for parents and Beavers to learn about different bits of personal kit required for <b>Damboree</b>. Higher discounts available on the night available to attendees.</p>
+                        <a href="https://goo.gl/forms/0If59BdFFMgbaFdg2" target="_blank" class="btn btn-primary">Sign Up</a>
+                    </div>  
+                    <div class="col-md-4">
+                        <h3><i class="far fa-calendar"></i> <b>Damboree</b> Fun Day</h3>
+                        <h4>TBC</h4>
+                        <p> <i class="fas fa-map-marker-alt"></i> Arden Campsite</p>
+                        <p>An afternoon for attendees of <b>Damboree</b> to get to know each other. Volunteers will run a number of team-building activites for Beavers so they get a feel for the big event! </p>
+                        <a href="#" target="_blank" class="btn btn-primary">Sign Up Coming Soon</a>
+                    </div>  
+                </div>
+                <hr/>
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2><i class="far fa-calendar"></i> Dunbartonshire Damboree!</h2>
+                        <h3>Friday 26th April 2019 - Sunday 28th April 2019</h3>
+                        <p> <i class="fas fa-map-marker-alt"></i> Auchengillen Outdoor Center</p>
+                        <p>The big event! Please contact your section leader to sign up!</p>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2231.4704757153427!2d-4.3790724837698844!3d55.99320288061831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4888455bebc9f7cf%3A0xfee7280e630d6fce!2sAuchengillan+Outdoor+Centre!5e0!3m2!1sen!2suk!4v1550793936340" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>  
+                </div>
             </div>
-          </section>
-      
-          <div class="parallax-container" data-parallax="scroll" data-bleed="10" data-speed="0.2" data-image-src="./img/scouts-and-explorers-with-helen-glover-2-jpg.jpg" data-natural-width="5616" data-natural-height="3744"></div>
-            
-          <section>
-            <div class="container">
-              <h2 id="options">FAQ</h2>
-
+        </section>
+        <div class="parallax-container" data-parallax="scroll" data-bleed="10" data-speed="0.2" data-image-src="./img/scouts-and-explorers-with-helen-glover-2-jpg.jpg" data-natural-width="5616" data-natural-height="3744"></div>    
+        <section>
+        <div class="container">
+            <h2 id="faq"><i class="fas fa-question"></i> FAQ</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <h3><i class="fas fa-question-circle"></i> What is a <i><b>Damboree</b></i>?</h3>
+                    <p>For many years it was thought that Beavers were not allowed to sleep in tents and could only have "indoor camps". In fact the rules changed in 2015 and so in 2018 in a bid to get more Beavers sleeping outdoors under canvas a national initiative was brought in called "<b>Damboree</b>, Beavers in Tents".</p>
+                </div>  
+                <div class="col-md-4">
+                    <h3><i class="fas fa-question-circle"></i> What will the Camp look like?</h3>
+                    <p>There are approximately 60 Beavers from across 6 groups within the District attending so far, with around 15-20 leaders to support them. We are booked in to one of the quieter camp grounds within Auchengillan which has access to a toilet and shower block (as if they are actually going to shower!?). In addition, we have exclusive use of a chalet from which we will be carrying out all the catering.</p>
+                </div>  
+                <div class="col-md-4">
+                    <h3><i class="fas fa-question-circle"></i> What if we need to contact Parents, or vice versa?</h3>
+                    <p>As with all camps, a primary and secondary contact will be nominated, so should we need to contact you or vice versa we can do so easily.</p>
+                </div>  
             </div>
-          </section>
-      
-          <div class="parallax-container" data-parallax="scroll" data-bleed="10" data-image-src="./img/scouts-and-explorers-with-helen-glover-2-jpg.jpg" data-natural-width="1400" data-natural-height="900"></div>
-      
-          <section>
+            <hr/>
+            <div class="row">
+                <div class="col-md-4">
+                    <h3><i class="fas fa-question-circle"></i> Where will Beavers sleep?</h3>
+                    <p>In tents! <b>Damboree</b> is a movement to allow our turquiose ninjas an opportunity to camp in the great outdoors! There will be very limited indoor accomodation available too.</p>
+                </div>  
+                <div class="col-md-4">
+                    <h3><i class="fas fa-question-circle"></i> What sort of activites can Beavers expect?</h3>
+                    <p>All activies will be tailored to Beavers age range. They will get the opportunity to ride on grass sledges, orienteering & map reading, campfire sing-song, join the Nerf war and lots more! All activites have been risk assessed and will be ran by trained leaders. </p>
+                </div>  
+                <div class="col-md-4">
+                    <h3><i class="fas fa-question-circle"></i> Are Beavers safe at the site?</h3>
+                    <p>Auchengillen Outdoor Center is designed for Youth Groups & School Outings. There are plenty of center staff as well as leaders from all groups attending to ensure Beavers are super safe while at <b>Damboree</b>!</p>
+                </div>  
+            </div>
+            <hr/>
+            <div class="row">
+                <div class="col-md-4">
+                    <h3><i class="fas fa-question-circle"></i> What should my Beaver bring to camp?</h3>
+                    <p>Tents and food are all provided by groups. Peronal kit lists will be sent out prior to the event by Beaver Leaders. If you are looking for further information about kit then please sign up to one of our information evenings at GoOutdoors!</p>
+                </div>  
+                <div class="col-md-4">
+                    <h3><i class="fas fa-question-circle"></i> Will there be a leader available during the day/at night?</h3>
+                    <p>Group leaders will be with Beaver colonies throughout the day. Camping will be in small groups with Beavers of the same colonies sleeping next to the tents of their leaders. </p>
+                </div>  
+                <div class="col-md-4">
+                    <h3><i class="fas fa-question-circle"></i> Are there toilets/showers etc?</h3>
+                    <p>Yes! There are lots of toilet blocks located accross the site, as well as washing facilites.</p>
+                </div>  
+            </div>
+        </section>
+        <div class="parallax-container" data-parallax="scroll" data-bleed="10" data-image-src="./img/31589814_168752273791473_270789287056769024_n.jpg" data-natural-width="960" data-natural-height="540"></div>   
+        <section>
             <div class="container">
                 <section class="mb-4">
-                    <h2 id="options">Contact Us</h2><br/>
+                    <h2 id="contact"><i class="fas fa-envelope"></i> Contact Us</h2><br/>
                     <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you as soon as we can!</p>
                     <div class="row">
-                        <div class="col-md-12 mb-md-0 mb-5">
-                            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="md-form mb-0">
-                                            <input type="text" id="name" name="name" class="form-control">
-                                            <label for="name" class="">Your name</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="md-form mb-0">
-                                            <input type="text" id="email" name="email" class="form-control">
-                                            <label for="email" class="">Your email</label>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="md-form mb-0">
-                                            <input type="text" id="subject" name="subject" class="form-control">
-                                            <label for="subject" class="">Subject</label>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-12">
-                
-                                        <div class="md-form">
-                                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
-                                            <label for="message">Your message</label>
-                                        </div>
-                
-                                    </div>
-                                </div>                
-                            </form>
-                
-                            <div class="text-center text-md-left">
-                                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
-                            </div>
-                            <div class="status"></div>
+                        <div class="col-sm-6">
+                            <span style="font-size: 12rem; text-align: center;">
+                                <a href="https://fb.me/msg/Dunbartonshiredistrictscouts" target="_blank">
+                                    <i style="width:100%; margin:0 auto;" class="fab fa-facebook-messenger"></i>
+                                    <h2>Reach out on Messenger</h2>
+                                </a>
+                             </span>
+            
                         </div>
-        </div>
+                        <div class="col-sm-6">
+                            <span style="font-size: 12rem; text-align: center;">
+                                <a href="mailto:damboree@dunbartonshirescouts.org" target="_blank">
+                                    <i style="width:100%; margin:0 auto;" class="fas fa-envelope"></i>
+                                    <h2>or by Email!</h2>
+                                </a>
+                             </span>
+                            
+                        </div>
     
-    </section>
+                    </div>
+                </section>
             </div>
-          </section>
-
-          <div class="parallax-container" data-parallax="scroll" data-bleed="10" data-image-src="./img/scouts-and-explorers-with-helen-glover-2-jpg.jpg" data-natural-width="750" data-natural-height="763"></div>
-      
-          <footer>
+        </section>
+        <footer>
             <div class="container">
-              Website donated by Andrew at Rokio - Web Solutions. Available on GitHub!
+                <div class="row">
+                    <div class="col-sm-4">
+                        <a href="http://dunbartonshirescouts.org/" target="_blank"><img src="img/logo.png" width="50%"/></a><br/><br/>
+                        <p>The Cottage, John Street, Helensburgh, Argyll and Bute, G84 8XL</p>
+                        <p>Scottish Registered Charity: SC015804</p>
+                    </div>
+                    <div class="col-sm-4">
+                    </div>
+                    <div class="col-sm-4">
+                        <p>Website donated by <a href="mailto:dev@ndrewbarber.com">Andrew</a>. <br/><i class="fab fa-github"></i> Available on <a href="https://github.com/AndrewBarber/Dunbartonshire-Damboree" target="_blank">GitHub</a>!</p>
+                    </div>
+
+                </div>
             </div>
-          </footer>
-
-
-          <script>
+        </footer>
+        <script>
             function getTimeRemaining(endtime) {
                 var t = Date.parse(endtime) - Date.parse(new Date());
                 var seconds = Math.floor((t / 1000) % 60);
@@ -181,14 +326,9 @@
     
                 updateClock();
                 var timeinterval = setInterval(updateClock, 1000);
-                }
-    
+            }   
                 var deadline = new Date('2019-04-26T18:00:00');
                 initializeClock('clockdiv', deadline);
-            
             </script>
-
     </body>
-
-
 </html>
